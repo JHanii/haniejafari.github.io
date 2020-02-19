@@ -1,3 +1,11 @@
 C:\git\AP98992\Exams\E1\cs\E1\obj\Debug\netcoreapp3.0\E1.csprojAssemblyReference.cache
 C:\git\AP98992\Exams\E1\cs\E1\obj\Debug\netcoreapp3.0\E1.AssemblyInfoInputs.cache
 C:\git\AP98992\Exams\E1\cs\E1\obj\Debug\netcoreapp3.0\E1.AssemblyInfo.cs
+C:\git\AP98992\Exams\E1\cs\E1\bin\Debug\netcoreapp3.0\E1.exe
+C:\git\AP98992\Exams\E1\cs\E1\bin\Debug\netcoreapp3.0\E1.deps.json
+C:\git\AP98992\Exams\E1\cs\E1\bin\Debug\netcoreapp3.0\E1.runtimeconfig.json
+C:\git\AP98992\Exams\E1\cs\E1\bin\Debug\netcoreapp3.0\E1.runtimeconfig.dev.json
+C:\git\AP98992\Exams\E1\cs\E1\bin\Debug\netcoreapp3.0\E1.dll
+C:\git\AP98992\Exams\E1\cs\E1\bin\Debug\netcoreapp3.0\E1.pdb
+C:\git\AP98992\Exams\E1\cs\E1\obj\Debug\netcoreapp3.0\E1.dll
+C:\git\AP98992\Exams\E1\cs\E1\obj\Debug\netcoreapp3.0\E1.pdb

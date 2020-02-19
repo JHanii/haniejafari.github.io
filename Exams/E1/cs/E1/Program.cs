@@ -8,7 +8,6 @@ namespace E1
         class Student
         {
             double sum = 0;
-            double []fs;
             int i = 0;
             public void Grades(double []Gr, int []We)
             {
@@ -30,7 +29,7 @@ namespace E1
         {
             
             var S = new Student();
-			S.Grades(new double {11,18,20,14} , new int {3,2,3,4});
+			S.Grades(new double[4] {11,18,20,14} , new int[4] {3,2,3,4});
             double q = S.avg();
             Console.WriteLine(q);
         }

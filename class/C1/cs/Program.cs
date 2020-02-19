@@ -6,8 +6,7 @@ namespace cs
     {
         static void Main(string[] args)
         {
-            string s;
-            Console.Readline(s);
+            string s = Console.ReadLine();
             var []list = var.pars(s);
             reverse([]list);
             static void reverse(var [] list)
