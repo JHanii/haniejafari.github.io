@@ -6,11 +6,15 @@ namespace cs
     {
         static void Main(string[] args)
         {
-            static void Reverce<_Type>(_Type[] list)
+            string s;
+            Console.Readline(s);
+            var []list = var.pars(s);
+            reverse([]list);
+            static void reverse(var [] list)
             {
                 for(int i=0, j=list.length -1; i<list.length/2; i++ , j--)
                 {
-                    auto temp = list[i];
+                    var temp = list[i];
                     list[i] = list[j];
                     list[j] = list[i];
                 }

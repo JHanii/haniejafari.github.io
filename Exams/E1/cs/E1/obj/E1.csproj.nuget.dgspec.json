@@ -1,29 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\git\\AP98992\\class\\C1\\cs\\cs.csproj": {}
+    "C:\\git\\AP98992\\Exams\\E1\\cs\\E1\\E1.csproj": {}
   },
   "projects": {
-    "C:\\git\\AP98992\\class\\C1\\cs\\cs.csproj": {
+    "C:\\git\\AP98992\\Exams\\E1\\cs\\E1\\E1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\AP98992\\class\\C1\\cs\\cs.csproj",
-        "projectName": "cs",
-        "projectPath": "C:\\git\\AP98992\\class\\C1\\cs\\cs.csproj",
+        "projectUniqueName": "C:\\git\\AP98992\\Exams\\E1\\cs\\E1\\E1.csproj",
+        "projectName": "E1",
+        "projectPath": "C:\\git\\AP98992\\Exams\\E1\\cs\\E1\\E1.csproj",
         "packagesPath": "C:\\Users\\pixel\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\AP98992\\class\\C1\\cs\\obj\\",
+        "outputPath": "C:\\git\\AP98992\\Exams\\E1\\cs\\E1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pixel\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netcoreapp3.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "netcoreapp3.0": {
             "projectReferences": {}
           }
         },
@@ -34,7 +34,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netcoreapp3.0": {
           "imports": [
             "net461",
             "net462",
@@ -50,7 +50,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "G:\\VSCode\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
