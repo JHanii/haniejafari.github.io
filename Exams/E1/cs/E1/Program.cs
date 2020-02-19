@@ -29,12 +29,11 @@ namespace E1
         static void Main(string[] args)
         {
             
-            ver S = new Student();
+            var S = new Student();
 			S.Grades(new double {11,18,20,14} , new int {3,2,3,4});
             double q = S.avg();
             Console.WriteLine(q);
         }
-        Console.ReadKey();
     }
 }
 
