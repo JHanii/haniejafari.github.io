@@ -7,21 +7,20 @@ namespace E1
 		
         class Student
         {
-            double sum = 0;
+            long sum = 0;
             int i = 0;
-            public void Grades(double []Gr, int []We)
+            public void Grades(int []Gr, int []We)
             {
-                foreach (double item in Gr)
+                foreach (int item in Gr)
                 {
-                    int d = We[i];
-                    sum += d* item;
-                    i++;
+                    sum += We[i]* item;
+                    i+=We[i];
                 }
 
             }
             public double avg()
             {
-                double av = sum/(i-1);
+                double av = sum/i;
                 return av;
             }
         }
@@ -29,7 +28,7 @@ namespace E1
         {
             
             var S = new Student();
-			S.Grades(new double[4] {11,18,20,14} , new int[4] {3,2,3,4});
+			S.Grades(new int[] {11,18,20,14} , new int[] {3,2,3,4});
             double q = S.avg();
             Console.WriteLine(q);
         }

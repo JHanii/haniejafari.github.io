@@ -1,23 +1,24 @@
 class Student:
     Gr = []
     We = []
-    def init(s,G,W):
-        for i in range(len(G)):
-            s.Grades.append(G[i])
-            s.Weights.append(W[i])
+    def init(self,Gr,We):
+        for i in range(len(Gr)):
+            self.Gr.append(Gr[i])
+            self.We.append(We[i])
+    
 
-    def GetAvg(s):
+    def Avg(self):
         sum = 0
-        w = 0
-        for i in range(len(s.Grades)):
+        a = 0
+        for i in range(len(st.Gr)):
         
-            sum+=s.Grades[i]*s.Weights[i]
-            w+=s.Weights[i]
+            sum+=self.Gr[i]*self.We[i]
+            a+=self.We[i]
         
-        return sum/w
+        return sum/a
 
-if name == "main":
-    Grades = [15,18,17,20,16,14]
-    Weights = [2,3,3,1,2,1]
-    s = Student(Grades,Weights)
-    print(s.GetAvg())
+if __name__ == "__main__":
+    Gr = [20,16,18,13]
+    We = [3,2,2,1]
+    st = Student()
+    print(st.Avg())
